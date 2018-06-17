@@ -1,0 +1,21 @@
+﻿<Window x:Class="DriveStore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DriveStore"
+        mc:Ignorable="d"
+        Title="DriveStore" Height="424" Width="641">
+	<Grid>
+		
+		<Label x:Name="Name" Content="Full Name:" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="93" Height="30"/>
+		<Label x:Name="LoginName" Content="Login Name:" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="93" Height="30"/>
+		<Label x:Name="DriveSize" Content="Drive Size(MB):" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="93" Height="30"/>
+		<TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="30" Margin="108,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="321"/>
+		<TextBox x:Name="LoginTextBox" HorizontalAlignment="Left" Height="30" Margin="108,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="321"/>
+		<TextBox x:Name="DriveSizeTextBox" HorizontalAlignment="Left" Height="30" Margin="108,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="321"/>
+		<Button x:Name="Register" Content="Register" HorizontalAlignment="Right" Margin="0,154,496,0" VerticalAlignment="Top" Width="111" Height="35" Click="register_Click"/>
+		
+
+	</Grid>
+</Window>
